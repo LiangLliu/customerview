@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CustomerView" >
         <activity
+            android:name=".activity.MySurfaceViewMainActivity"
+            android:exported="false" />
+        <activity
             android:name=".activity.FindMeActivity"
             android:exported="false" />
         <activity

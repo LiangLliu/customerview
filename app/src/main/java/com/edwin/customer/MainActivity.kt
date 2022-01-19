@@ -7,6 +7,7 @@ import androidx.appcompat.app.AppCompatActivity
 import com.edwin.customer.activity.DrawActivity
 import com.edwin.customer.activity.EditTextWithClearActivity
 import com.edwin.customer.activity.FindMeActivity
+import com.edwin.customer.activity.MySurfaceViewMainActivity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -31,6 +32,14 @@ class MainActivity : AppCompatActivity() {
             .setOnClickListener {
                 run {
                     startActivity(Intent(this, FindMeActivity::class.java))
+
+                }
+            }
+
+        findViewById<TextView>(R.id.mySurfaceView)
+            .setOnClickListener {
+                run {
+                    startActivity(Intent(this, MySurfaceViewMainActivity::class.java))
 
                 }
             }
