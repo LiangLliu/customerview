@@ -1,7 +1,8 @@
-package com.edwin.customer
+package com.edwin.customer.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.edwin.customer.R
 import com.edwin.customer.draw.MyDrawView
 
 class DrawActivity : AppCompatActivity() {
