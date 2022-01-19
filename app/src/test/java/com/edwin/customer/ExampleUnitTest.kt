@@ -1,4 +1,4 @@
-package com.edwin.customerview
+package com.edwin.customer
 
 import org.junit.Test
 

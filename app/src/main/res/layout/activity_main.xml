@@ -19,9 +19,10 @@
         app:layout_constraintVertical_bias="0.217" />
 
     <TextView
+        android:id="@+id/myDrawView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="欧拉公式——正余弦函数关系"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintLeft_toLeftOf="parent"

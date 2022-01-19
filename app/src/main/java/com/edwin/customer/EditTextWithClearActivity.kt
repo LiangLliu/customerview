@@ -1,4 +1,4 @@
-package com.edwin.customerview
+package com.edwin.customer
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

@@ -1,9 +1,9 @@
-package com.edwin.customerview
+package com.edwin.customer
 
 import android.content.Intent
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.TextView
+import androidx.appcompat.app.AppCompatActivity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -17,6 +17,12 @@ class MainActivity : AppCompatActivity() {
                 }
             }
 
+        findViewById<TextView>(R.id.myDrawView)
+            .setOnClickListener {
+                run {
+                    startActivity(Intent(this, DrawActivity::class.java))
+                }
+            }
 
     }
 }

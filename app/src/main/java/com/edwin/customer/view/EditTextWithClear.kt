@@ -1,4 +1,4 @@
-package com.edwin.customerview.customer
+package com.edwin.customer.view
 
 import android.content.Context
 import android.graphics.Rect
@@ -7,7 +7,7 @@ import android.util.AttributeSet
 import android.view.MotionEvent
 import androidx.appcompat.widget.AppCompatEditText
 import androidx.core.content.ContextCompat
-import com.edwin.customerview.R
+import com.edwin.customer.R
 
 class EditTextWithClear @JvmOverloads constructor(
     context: Context, attrs: AttributeSet? = null
