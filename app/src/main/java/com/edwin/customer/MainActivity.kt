@@ -4,15 +4,14 @@ import android.content.Intent
 import android.os.Bundle
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
-import com.edwin.customer.activity.DrawActivity
-import com.edwin.customer.activity.EditTextWithClearActivity
-import com.edwin.customer.activity.FindMeActivity
-import com.edwin.customer.activity.MySurfaceViewMainActivity
+import com.edwin.customer.activity.*
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
+
+        startActivity(Intent(this, ColorPickerActivity::class.java))
 
         findViewById<TextView>(R.id.editTextWithClear)
             .setOnClickListener {
